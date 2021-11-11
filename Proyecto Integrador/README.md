@@ -52,7 +52,7 @@ La URL a [YouTube](https://youtube.com)
 
 ## Referencias
 
-- <a id="1">[1]</a> Subramanyam, K. R. and Wild, John J. (2009) Financial statement analysis. 10th ed. Boston, Mass: McGraw-Hill Irwin.
+- <a id="1">[1]</a> Subramanyam, K. R. and Wild, John J. (2009) Financial statement analysis. 10th ed. Boston, Mass: McGraw-Hill Irwin. ISBN-10: 0073379433
 
 - <a id="2">[2]</a> Corporate Finance Institute (2018) Financial Ratios eBook. 1st ed. Vancouver, CAN: CFI.
   
