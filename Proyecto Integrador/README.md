@@ -8,15 +8,13 @@ The numerical analysis run in C can calculate financial ratios, run statistical 
 In finance, valuation is the process of determining the present value of an asset. Valuations can be done on assets or on liabilities.
 
 Valuation guide
-- Fundamental Analysis
-- Ratio calculations
+- Fundamental Analysis <a id="2">[1]</a>
+- Ratio calculations <a id="2">[2]</a>
 - Valuation
 - Output
 
-[1]
-
 ## Estructura
-Here we can see the flow structure of the program. 
+Here we can see the flow structure of the program. (pendiente)
 
 ## Funcionalidad
 
@@ -54,4 +52,7 @@ La URL a [YouTube](https://youtube.com)
 
 ## Referencias
 
-[1] Lo que cito arriba.
+- <a id="1">[1]</a> Subramanyam, K. R. and Wild, John J. (2009) Financial statement analysis. 10th ed. Boston, Mass: McGraw-Hill Irwin.
+
+- <a id="2">[2]</a> Corporate Finance Institute (2018) Financial Ratios eBook. 1st ed. Vancouver, CAN: CFI.
+  
