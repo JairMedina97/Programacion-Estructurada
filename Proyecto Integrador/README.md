@@ -17,17 +17,16 @@ Valuation guide
 ## Estructura
 Here we can see the flow structure of the program. 
 <p align="center">
-  <div align="left"><img src="Images/Title.PNG" width="400" >
-</p>
-
-<div align="left"><img src="Images/Welcome1.PNG" width="400" >
-<div align="left"><img src="Images/structures.PNG" width="400" >
-<div align="left"><img src="Images/programflow.PNG" width="400" >
-<div align="left"><img src="Images/addataflow.PNG" width="400" >
-<div align="left"><img src="Images/menuflow.PNG" width="400" >
-<div align="left"><img src="Images/menuflow2.PNG" width="400" >
-<div align="left"><img src="Images/ratiosflow.PNG" width="400" >
-<div align="left"><img src="Images/valuationflow.PNG" width="400" >
+<img src="Images/Title.PNG" width="500" >
+<img src="Images/Welcome1.PNG" width="500" >
+<img src="Images/structures.PNG" width="500" >
+<img src="Images/programflow.PNG" width="500" >
+<img src="Images/addataflow.PNG" width="500" >
+<img src="Images/menuflow.PNG" width="500" >
+<img src="Images/menuflow2.PNG" width="500" >
+<img src="Images/ratiosflow.PNG" width="500" >
+<img src="Images/valuationflow.PNG" width="500" >
+ </p>
 
 ## Funcionalidad
 
