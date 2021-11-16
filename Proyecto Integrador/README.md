@@ -57,10 +57,98 @@ To have a better sense how is our performance.
 
 <div align="left"><img src="Images/ratios().PNG" width="600" >
   
+  <p>Logic of Financial ratios in C code:</p>
+
+<pre><code>    // LOGIC OF FINANCIAL RATIOS
+    printf("\n\t\t\t%s", BS.assets > BS.liabilities ? "1.- Business has more assets than liabilities" : "1.- Business has more liabilities than assets");
+    printf("\n\t\t\t%s", IS.profit < IS.interest ? "2.- The payment in Interest expense is large" : "2.- The payment in Interest expense is low");
+
+
+    if (profitability >= 0.1){
+        printf("\n\t\t\t3.- Net Income results creates value to business. ");
+        index += index + 2;
+    } else if (profitability >= 0 && profitability < 0.1){
+        printf("\n\t\t\t3.- Profitability is low. ");  
+        index += index + 0.5;   
+    } else {
+        printf("\n\t\t\t3.- The business is not profitable. ");
+    }
+
+
+    if (current > 1.5){
+        printf("\n\t\t\t4.- Business Assets can pay liabilities by a margin greather than 1.5x");
+        index += index + 2;
+    } else if (current >= 0.75 && current <= 1.5){
+        printf("\n\t\t\t4.- Assets have to pay Liabilities."); 
+        index += index + 0.5;    
+    } else {
+        printf("\n\t\t\t4.- Liabilities are a great threat to business.");
+    }
+
+
+    if (leverage > 0.7){
+        printf("\n\t\t\t5.- Your business has too much DEBT!");
+    } else if (leverage >= 0.4 && leverage <= 0.7){
+        printf("\n\t\t\t5.- Debt levels are average"); 
+        index += index + 0.5;    
+    } else {
+        printf("\n\t\t\t5.- Debt levels are great, you can consider more capital expenditures to grow.");
+        index += index + 1;
+    }
+
+
+    if(ROE >= 0.15 && (IS.profit >= 0 || BS.equity >= 0)){
+        printf("\n\t\t\t6.- Return on Equity is excellent, good management of cash reserves.");
+        index += index + 2;
+    } else {
+        printf("\n\t\t\t6.- Return on Equity is low, cash management is not properly invested.");       
+    }
+
+    printf("\n\n\t\t\tIndex value is %d\n", index);
+
+    if(index >= 20){
+        printf("\t\t\t7.- Business has positive results\n");
+    } else if (index >= 12 && index<20){
+        printf("\t\t\t7.- Business needs Due diligence\n");
+    } else {
+        printf("\t\t\t7.- Business may be in the need to declare BANKRUPTCY\n");
+    }
+
+    if(IS.profit <= 0 || BS.equity <= 0 ){
+        printf("\t\t\t8.- The business is burning cash");
+        index += index - 2;       
+    }
+</code></pre>
+  
 Option number 4 performs the valuation with a given stock price.Valuation as the name implies will evaluate “Valuation multiples” to give a better interpretation how the performance is and what to expect.
 
 <div align="left"><img src="Images/valuation().PNG" width="600" >
-  
+
+<p>Method of Valuation in C code:</p>
+<pre><code> 
+    PE = price / IS.revenue ; // Price to earnings multiple
+    EV = BS.assets + BS.equity + IS.profit; // Enterprise Value
+    EBITDA = IS.gross * 0.9; // Earnings Before Interest Depreciation & Amortization
+
+    printf("============================================================================\n");
+    printf("\nYear\tPrice $\tEarnings\t EV \tEV/sales\tEV/EBITDA\tP/E \n");
+    printf("\n%d\t%6.2f\t%6.2f\t\t%6.2f\t%6.2fx\t\t%6.2fx\t%6.2fx\n", BS.year, price, IS.profit, EV, EV/IS.profit, EV/EBITDA, PE);
+    printf("============================================================================\n");
+
+    printf("\n\t\t\tForecast for financial metrics in the next 5 years");
+    printf("\n\t\t\tYear\tAssets\t Profit\t Debt\t EV\n");
+
+    printf("\t\t\t%d\t%6.1f\t%6.1f\t%6.1f\t %6.2f\n", BS.year, BS.assets, IS.profit, BS.debt, EV);
+        for(i = 0; i < 5; i++){
+            BS.year += 1;
+            BS.assets = BS.assets * 1.05;
+            IS.profit = IS.profit * 1.1;
+            BS.debt = BS.debt * 1.02;
+            EV = BS.assets + BS.equity + IS.profit;
+            printf("\t\t\t%d\t%6.1f\t%6.1f\t%6.1f\t %6.2f\n", BS.year, BS.assets, IS.profit, BS.debt, EV);
+        }
+    printf("\n\t\t\t2021 - 2025 growth rate is %6.2f %%", (EV/BS.assets - 1) * 100 );
+</code></pre>
 
 ## Video
 
