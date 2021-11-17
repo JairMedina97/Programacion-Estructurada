@@ -31,30 +31,30 @@ Here we can see the flow structure of the program.
 ## Funcionalidad
 
 Our main program first has an introduction. 
-<div align="left"><img src="Images/welcome.PNG" width="600" >
+<p align="center"><img src="Images/welcome.PNG" width="600" > </p>
   
 We'll use this financial data examples to have an input data.
-<div align="left"><img src="Images/Finance-example.PNG" width="600" >  
+<p align="center"><img src="Images/Finance-example.PNG" width="600" > </p> 
   
 We first need to upload the data into the Balance sheet. 
-<div align="left"><img src="Images/AddBS.PNG" width="600" >
+<p align="center"><img src="Images/AddBS.PNG" width="600" > </p>
 
 Then upload the data into the Income Statement. 
-<div align="left"><img src="Images/AddIS.PNG" width="400" >
+<p align="center"><img src="Images/AddIS.PNG" width="400" > </p>
 
 After the info has been updated we enter the menu section
-<div align="left"><img src="Images/Menu.PNG" width="400" >
+<p align="center"><img src="Images/Menu.PNG" width="400" > </p>
   
 In option 1 we can modify, update our data. Manipulate is a function where we can modify our .txt files to overwrite the actual data with a new one if something has to be done different we have the option to upload a new entry.
   
 We can display the financial statements in option 2. Two display functions one for each financial statement to print in a table format.
-<div align="left"><img src="Images/Balancesheet.PNG" width="400" >
-<div align="left"><img src="Images/Incomestatement.PNG" width="400" >
+<p align="center"><img src="Images/Balancesheet.PNG" width="400" > </p>
+<p align="center"><img src="Images/Incomestatement.PNG" width="400" > </p>
   
 In option 3 we perform the logic structure of the conditional statements.The function ratios will evaluate the info from both balance sheet and income statement to return values such as current ratio, profitability, Debt ratio, Return on Equity, liabilities levels and more.
 To have a better sense how is our performance.
 
-<div align="left"><img src="Images/ratios().PNG" width="600" >
+<p align="center"><img src="Images/ratios().PNG" width="600" > </p>
   
   <p>Logic of Financial ratios in C code:</p>
 
@@ -121,7 +121,7 @@ To have a better sense how is our performance.
   
 Option number 4 performs the valuation with a given stock price.Valuation as the name implies will evaluate “Valuation multiples” to give a better interpretation how the performance is and what to expect.
 
-<div align="left"><img src="Images/valuation().PNG" width="600" >
+<p align="center"><img src="Images/valuation().PNG" width="600" > </p>
 
 <p>Method of Valuation in C code:</p>
 <pre><code> 
@@ -151,7 +151,7 @@ Option number 4 performs the valuation with a given stock price.Valuation as the
 
 ## Video
 
-La URL a [YouTube](https://youtube.com)
+URL of the video explanation [YouTube](https://youtube.com)
 
 ## Referencias
 
