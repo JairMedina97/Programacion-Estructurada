@@ -14,7 +14,7 @@ Valuation guide
 - Output
 
 
-## Estructura
+## Structure flow
 Here we can see the flow structure of the program. 
 <p align="center">
 <img src="Images/Title.PNG" width="500" >
@@ -28,7 +28,7 @@ Here we can see the flow structure of the program.
 <img src="Images/valuationflow.PNG" width="500" >
  </p>
 
-## Funcionalidad
+## Program application
 
 Our main program first has an introduction. 
 <p align="center"><img src="Images/welcome.PNG" width="600" > </p>
@@ -153,7 +153,7 @@ Option number 4 performs the valuation with a given stock price.Valuation as the
 
 URL of the video explanation [YouTube](https://youtube.com)
 
-## Referencias
+## Bibliography
 
 - <a id="1">[1]</a> Subramanyam, K. R. and Wild, John J. (2009) Financial statement analysis. 10th ed. Boston, Mass: McGraw-Hill Irwin. ISBN-10: 0073379433
 
