@@ -151,7 +151,7 @@ Option number 4 performs the valuation with a given stock price.Valuation as the
 
 ## Video
 
-URL of the video explanation [YouTube](https://youtube.com)
+URL of the video explanation [YouTube](https://youtu.be/5EpGaQnwb34)
 
 ## Bibliography
 
