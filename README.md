@@ -1,6 +1,6 @@
 # Programacion-Estructurada
 
-# Tarea#2 Prime numbers to Binary
-### - Adjunto una imagen con pseudocódigo
-<div align="center"><img src="Images/pic1.PNG" width="300" >
-  <div align="center"><img src="Images/pic2.PNG" width="300" >
+This repository was for my Programacion Estructurada class in the Faculty of Mechanical and Electrical Engineering (FIME - UANL). 
+
+Bibliography
+- <a id="1">[1]</a> Kernighan, B. W., & Ritchie, D. M. (1988). The C programming language. ISBN-13: 9780131103627
